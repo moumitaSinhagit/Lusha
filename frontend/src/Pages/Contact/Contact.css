@@ -1,0 +1,86 @@
+.contact-banner {
+    padding:3rem 0;
+}
+.contactUs {
+    padding: 6rem 0 5rem;
+}
+.contactUs .row .col-md-6:first-child {
+    padding-right: 10rem;
+}
+.contactUs .all-heading h2::before {
+    left: 0;
+    transform: none;
+}
+.contactUs .all-heading p {
+    letter-spacing: 0;
+    max-width: 450px;
+    line-height: 30px;
+}
+.contactCol {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.contactCol h3 {
+    font-size: 22px;
+}
+.contactCol p {
+    color:#666;
+    font-weight: 500;
+}
+.contact-form input {
+    height: 50px;
+    border-radius: 0;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    padding: 10px 20px;
+}
+.contact-form textarea {
+    height: 200px;
+    border-radius: 0;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    padding: 10px 20px;
+    resize: none;
+}
+.contact-form input:focus,.contact-form textarea:focus {
+    box-shadow: none;
+    border: 1px solid #EE7B7B;
+}
+.contact-form .form-control::placeholder{
+    color:#9F9F9F;
+}
+.contact-form .form-control::-moz-placeholder{
+    color:#9F9F9F;
+}
+.cntHd {
+    margin-bottom: 40px;
+}
+.contact-form .form-group {
+    margin-bottom:1.2rem;
+}
+.contact-form .shopbtn {
+    width:100%;
+    background: #000;
+    color:#fff;
+}
+.contact-form .shopbtn:hover {
+    background: #fff;
+    color:#000;
+}
+@media (max-width: 1199px) {   
+    .contactUs .row .col-md-6:first-child {
+        padding-right: 5rem;
+    }
+}
+@media (max-width: 992px) {   
+    .contactUs .row .col-md-6:first-child {
+        padding-right: 2rem;
+    }
+}
+@media (max-width: 767px) {  
+    .contactUs .row .col-md-6:first-child {
+        padding-right: 14px;
+    }
+    .contactUs {
+        padding: 4rem 0 4rem;
+    }
+}

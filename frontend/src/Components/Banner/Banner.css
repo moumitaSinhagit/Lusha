@@ -1,0 +1,47 @@
+.banner-area {
+    background: url('../images/banner-bg.jpg') no-repeat center center / cover;
+    padding: 7rem 0;
+}
+.banner-area h2 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 600;
+}
+.banner-area ul {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.banner-area li {
+    position:relative;
+}
+.banner-area li a,.banner-area li {
+    text-decoration: none;
+    color: #fff;
+}
+.banner-area li:last-child {
+    font-weight: 600;
+}
+.banner-area li::after {
+    content:" ";
+    background:url('../images/arrow-angle.svg') no-repeat center center / contain;
+    position: absolute;
+    right: -24px;
+    width: 20px;
+    height: 20px;
+    top: 2px;
+}
+.banner-area li:last-child::after {
+    display:none;
+}
+
+@media (max-width: 767px) {  
+    .banner-area {
+        padding: 3rem 0;
+    }
+    .banner-area h2 {
+        font-size: 40px;
+    }
+}

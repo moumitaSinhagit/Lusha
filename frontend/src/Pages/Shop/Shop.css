@@ -1,0 +1,218 @@
+.product-listing {
+    padding:6rem 0;
+}
+.list-right .product-cards a {
+    text-decoration: none;
+}
+.filterCol {
+    margin-bottom: 40px;
+}
+.filterHeading {
+    margin-bottom: 20px;
+}
+.filterHeading h2 {
+    font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    padding:5px 0 5px 10px;
+    margin-bottom:0;
+}
+.filterHeading h2::after {
+    content: " ";
+    background:#EE7B7B;
+    width:3px;
+    height: 100%;
+    position:absolute;
+    left:0;
+    top:0;
+}
+.filterCol ul {
+    padding-left: 0;
+    list-style: none;
+}
+.filterCol li {
+    margin-bottom:16px;
+    color: #666666;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+.occasiontabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.occasiontabs button {
+    border:1px solid #000;
+    background: #F7F7F7;
+    padding:6px 16px;
+    font-weight: 500;
+    font-size: 16px;;
+}
+.colortabs {
+    display: flex;
+    gap: 12px;
+}
+.colortabs .colorDivs {
+    border:1px solid #666666;
+    border-radius: 50%;
+    width:20px;
+    height: 20px;
+}
+.colortabs .colorDivs:nth-child(1) {
+    background: #000;
+}
+.colortabs .colorDivs:nth-child(2) {
+    background: #fff;
+}
+.colortabs .colorDivs:nth-child(3) {
+    background: #F5F5DC;
+}
+.colortabs .colorDivs:nth-child(4) {
+    background: #FF5959;
+}
+.colortabs .colorDivs:nth-child(5) {
+    background: #36A5E6;
+}
+.colortabs .colorDivs:nth-child(6) {
+    background: #E0545F;
+}
+.colortabs .colorDivs:nth-child(7) {
+    background: #FFC0CB;
+}
+.filter-form-check .form-check input {
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    background: #F7F7F7;
+}
+.filter-form-check .form-check {
+    margin-bottom:10px;
+}
+.form-check-label {
+    color:#666666;
+    font-size: 16px;
+    font-weight: 500;
+}
+.filter-form-check .form-check input:checked{
+    background-color: #EE7B7B!important;
+    background: url('../images/tick.svg') no-repeat center center / 10px;
+}
+
+.filter-form-check .form-check input:focus {
+    box-shadow: none;
+}
+
+.page-navigation .pagination{gap:10px}
+#next-page button,#prev-page button{background: #EE7B7B;border-radius: 5px;padding: 0.5rem 1.1rem;border:1px solid #EE7B7B;}
+.page-item button {padding: 0.5rem 1.1rem;border-radius: 5px;font-size: 1.1rem;background-color: #F7F7F7;border:1px solid #D9D9D9;color: #000!important;font-weight: 600;}
+.page-item button img {vertical-align: text-top;}
+.page-item.active button{border:1px solid #EE7B7B;background-color: #F7F7F7;}
+.page-item button:focus {box-shadow: none;}
+
+.product-list-animated .col-md-4 {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.5s ease forwards;
+}
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.filterCol li.active {
+    color:#EE7B7B;
+}
+.colortabs .colorDivs.active {
+    background-color: black;
+    border: 2px solid #EE7B7B;
+    box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.20);
+}
+.occasiontabs button.active {
+    border: 1px solid #EE7B7B;
+    color:#EE7B7B;
+}
+.list-right {
+    position: sticky;
+    top: 20px;
+    align-self: flex-start;
+}
+.bestseller-badge {
+    color: #fff;
+    position: absolute;
+    background: #EE7B7B;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 14px;
+    border-radius: 50px;
+    top: 10px;
+    left: 10px;
+    z-index: 999;
+    padding: 8px 15px;
+    display: block;
+    line-height: 14px;
+}
+@media (max-width: 767px) { 
+    .product-listing {
+        padding: 3rem 0;
+    }
+    .list-right .product-cards .row {
+        overflow-x:visible;
+        flex-wrap: wrap;
+    }
+    .filter-mob-innr {
+        display: flex;
+        margin-bottom: 2rem;
+        align-items: center;
+        background: rgb(241, 241, 241);
+        border-radius: 9px;
+        padding: 1rem 1.5rem;
+    }
+    .filter-mob-innr span {
+        font-size: 1.2rem;
+        display: inline-block;
+        margin-left: 0.8rem;
+        text-transform: uppercase;
+        font-family: Raleway;
+        font-weight: 600;
+    }
+    .pdt-list-left {
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        height: 100%;
+        overflow-y: scroll;
+        z-index: 999;
+        width: 100%!important;
+        transform: translateX(100%);
+        backdrop-filter: blur(2px);
+        background: rgba(0, 0, 0, 0.5);
+        padding: 0px!important;
+        transition: transform 0.35s;
+    }
+    .pdt-list-innr {
+        width: 80%;
+        box-shadow: rgba(0, 0, 0, 0.5) 9px 5px 7px 10px;
+        margin-left: auto;
+        position: relative;
+        background: rgb(255, 255, 255);
+        padding: 2.5rem 1rem;
+    }
+    .occasiontabs {
+        gap: 12px;
+    }
+    .filterCol ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+    .filterCol li {
+        margin-bottom: 0;
+    }
+    .closeIcn  {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+}

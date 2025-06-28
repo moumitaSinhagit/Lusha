@@ -1,0 +1,114 @@
+.nvMain .navbar-brand img {
+    max-width: 130px;
+}
+.nvMain .nav-item {
+    padding-left: 18px;
+    padding-right:18px;
+}
+.nvMain .nav-link {
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    padding:0;
+    cursor: pointer;
+    transition:all 0.5s ease;
+}
+.nvMain .nav-link:hover {
+    color:#EE7B7B;
+}
+.nvMain .navbar-brand {
+    margin:0;
+}
+.navRght {
+    display: flex;
+    gap:15px;
+}
+.navRght svg {
+    width:25px;
+    height: 25px;
+}
+.navRght a{
+    text-decoration: none;
+}
+.count {
+    text-decoration: none;
+    background: #EE7B7B;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-flex;
+    width: 25px;
+    height: 25px;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 14px;
+}
+.banner-area.cart-banner {
+    padding: 3rem 0;
+}
+.navbar-toggler-icon {
+    background-image:none!important;
+}
+.navbar-toggler {
+    padding: 0!important;
+    border: none!important;
+}
+.mobo-logo {
+  display: none;
+}
+@media (max-width: 992px) { 
+    .mobo-logo {
+      display: block;
+    }
+    .navRght {
+        gap:10px;
+    }
+    .navbar-collapse {
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.50);
+    left: 0;
+    top: 0;
+    height: 100vh;
+    transition: transform .35s ease!important;
+    z-index: 99;
+  }
+  .navbar-inner-mob {
+    background: #fff;
+    width: 80%;
+    height: 100vh;
+  }
+  .nvMain {
+    position: relative;
+    /* z-index: 111; */
+  }
+  .mobo-logo {
+    padding: 40px 20px 0;
+  }
+  .mobo-logo-innr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .mobo-logo-innr img {
+    max-width: 130px;
+  }
+  .nvMain .nav-item {
+    padding:15px 20px;
+  }
+  .navbar-collapse.show {
+    transform: translateX(0%);
+    transition: transform .35s ease;
+  }
+  .navbar-collapse {
+    transform: translateX(0px);
+    transition: transform .35s ease;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  
+  
+}

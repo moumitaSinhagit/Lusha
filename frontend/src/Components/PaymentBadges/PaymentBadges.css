@@ -1,0 +1,59 @@
+.payment-badges {
+    padding-bottom:60px;
+}
+.payment-badges-innr {
+    text-align: center;
+    background: #F7F7F7;
+    padding:40px 30px;
+}
+.payment-badges-innr img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.payment-badges-innr h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.payment-badges-innr p {
+    color:#666666;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom:0;
+}
+@media (max-width: 1199px) {   
+    .payment-badges-innr {
+        padding: 40px 30px;
+    }
+    .payment-badges-innr h3 {
+        font-size: 18px;
+    }
+}
+@media (max-width: 992px) {   
+    .payment-badges-innr {
+        padding: 25px 10px;
+    }
+    .payment-badges-innr h3 {
+        font-size: 17px;
+    }
+    .payment-badges-innr p {
+        font-size: 14px;
+    }
+}
+@media (max-width: 767px) {   
+    .payment-badges-innr {
+        background: #E7E7E7;
+        padding: 30px 10px;
+    }
+    .payment-badges .col-md-3 {
+        padding:0 8px;
+        margin-bottom:15px;
+    }
+    .payment-badges-innr h3 {
+        font-size: 17px;
+    }
+    .payment-badges-innr p {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,113 @@
+.about-banner{
+    padding:3rem 0;
+}
+.about-col {
+    padding:5rem 0;
+}
+.about-col .row .col-md-6:first-child {
+    padding-right: 6rem;
+}
+.about-col .all-heading h2::before {
+    left:0;
+    transform: none;
+}
+.about-col .all-heading {
+    padding-bottom: 10px;
+}
+.about-col p {
+    color: #666666;
+    font-weight: 500;
+    line-height: 26px;
+}
+.about-col2 {
+    padding:1rem 0 3rem;
+}
+.about-col2 .row {
+    flex-direction: row-reverse;
+}
+.about-col2 .row .col-md-6:first-child {
+    padding-left:0;
+}
+.about-col2 .row .col-md-6:last-child {
+    padding-right: 4rem;
+}
+.collections {
+    padding:2rem 0 0;
+}
+.collections .all-heading h2 {
+    margin-bottom: 30px;
+}
+.collections .all-heading {
+    padding-bottom:10px;
+}
+.collections .all-heading p {
+    letter-spacing: 0;
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+.collections .row .col-md-6 {
+    overflow: hidden;
+}
+.collections .row .col-md-6:last-child img:first-child{
+    margin-bottom: 25px;
+}
+.collections .col-md-6 img {
+    transition:all 0.2s ease;
+    overflow: hidden;
+}
+.collections .col-md-6 img:hover {
+    filter: grayscale(1);
+    transform: scale(1.05);
+   overflow: hidden;
+}
+.collections .col-md-6 a {
+     overflow: hidden;
+     display: block;
+}
+@media (max-width: 992px) { 
+    .about-col .row .col-md-6:first-child {
+        padding-right: 2rem;
+    }
+    .about-col2 .row .col-md-6:last-child {
+        padding-right: 2rem;
+    }
+    .about-col {
+        padding: 5rem 0 2rem;
+    }
+    .about-col2 {
+        padding-top:2rem;
+    }
+}
+@media (max-width: 767px) {   
+    .about-col {
+        padding: 4rem 0;
+    }
+    .about-col .row .col-md-6:last-child {
+        order:1;
+    }
+    .about-col .row .col-md-6:first-child {
+        padding-right: 14px;
+        order:2;
+    }
+    .about-col .row .col-md-6:last-child img {
+        margin-bottom:30px;
+    }
+    .about-col2 {
+        padding-top:0;
+    }
+    .about-col2 .row .col-md-6:last-child {
+        padding-right: 14px;
+    }
+    .about-col2 .row .col-md-6:first-child {
+        padding-left: 14px;
+    }
+    .collections {
+        padding: 0rem 0 0;
+    }
+    .collections .col-md-6 {
+        margin-bottom:20px;
+    }
+    .abtPge .testimonials-slider {
+        padding-top:40px;
+    }
+}

@@ -1,0 +1,198 @@
+.home-category-area {
+    padding:80px 0;
+}
+.cat-bg-inr {
+    padding:60px 35px;
+    transition: all 0.7s ease;
+    overflow: hidden;
+}
+.home-category-area .row .col-md-6 {
+    overflow: hidden;
+}
+.home-category-area .row .col-md-6:first-child .cat-bg-inr {
+    background: url(../images/pouch-bags-bg.jpg) no-repeat bottom center / cover;
+    
+}
+.home-category-area .row .col-md-6:last-child .cat-bg-inr {
+    background: url(../images/chic-totes-bg.jpg) no-repeat bottom center / cover;
+}
+.home-category-area a {
+    text-decoration: none;
+}
+.cat-bg-inr h4 {
+    color: #000;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.cat-bg-inr h2 {
+    color: #000;
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+.home-category-area .shopbtn {
+    background-color: #000;
+    color:#fff;
+}
+.home-category-area .shopbtn:hover {
+    background-color: #fff;
+    color: #000;
+}
+.welcome-area {
+    padding:50px 0;
+}
+.welcome-area h2 {
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-bottom:20px;
+    position:relative;
+    margin-bottom: 15px;
+}
+.welcome-area h2::after {
+    content:" ";
+    position: absolute;
+    left:0;
+    bottom:10px;
+    width:165px;
+    height:2px;
+    background:#EE7B7B;
+}
+.welcome-area p {
+    max-width: 450px;
+    font-size: 17px;
+    color: #666666;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 35px;
+}
+.bags-cat {
+    padding:40px 0 100px;
+}
+.bag-cat-innr {
+    position:relative;
+}
+.bag-cat-title {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.bag-cat-title h2 {
+    font-size: 68px;
+    color:#fff;
+    font-family: "EB Garamond", serif;
+    line-height: 68px;
+    margin-bottom: 30px;
+}
+.cta {
+    background: url('../images/cta-bg.jpg') no-repeat center center / cover;
+    padding: 8rem 0;
+}
+.cta h2 {
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding-bottom:20px;
+    font-weight: 500;
+    position:relative;
+    margin-bottom:0;
+}
+.cta h2::after {
+    content:" ";
+    background:#fff;
+    height: 2px;
+    width:150px;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,0);
+    bottom:10px;
+}
+.handbagTxt {
+    padding:40px 0 50px;
+}
+.welcome-area .shopbtn {
+    background: #000;
+    color:#fff;
+}
+.welcome-area .shopbtn:hover {
+    background: #fff;
+    color:#000
+}
+@media (max-width: 1199px) {  
+    .bags-cat .shopbtn {
+        padding: 10px 30px;
+    }
+}
+@media (max-width: 1024px) {  
+    .cat-bg-inr h2 {
+        font-size: 42px;
+    }
+}
+@media (max-width: 992px) {  
+    .cat-bg-inr h2 {
+        font-size: 34px;
+    }
+     .bag-cat-innr .shopbtn {
+        padding: 10px 25px;
+    }
+}
+@media (max-width: 767px) {  
+    .home-category-area {
+        padding:50px 0;
+    }
+    .home-category-area .col-md-6 {
+        margin-bottom:15px;
+    }
+    .cat-bg-inr {
+        padding: 60px 20px;
+    }
+    .cat-bg-inr h4 {
+        font-size: 16px;
+        margin-bottom:5px;
+    }
+    .cat-bg-inr h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+    .welcome-area .row .col-md-6:first-child {
+        order:2;
+    }
+    .welcome-area .row .col-md-6:last-child {
+        order:1;
+        margin-bottom: 40px;
+    }
+    .welcome-area {
+        padding:0 0 50px;
+    }
+    .bags-cat .col-md-4 {
+        margin-bottom:20px
+    }
+    .bag-cat-img img {
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .bag-cat-innr .shopbtn {
+        padding: 10px 25px;
+    }
+    .bags-cat {
+        padding: 40px 0 60px;
+    }
+    .cta h2 {
+        font-size: 16px;
+    }
+    .cta h2::after {
+        width: 100px;
+    }
+    .handbagTxt {
+        height: 240px!important;
+        margin: auto;
+    }
+    .cta .shopbtn {
+        padding: 10px 40px;
+    }
+}

@@ -1,0 +1,115 @@
+.product-cards h3 {
+    color:#000;
+    font-size:20px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.product-card-price {
+    gap:10px;
+}
+.product-card-price strike,.product-card-price p {
+    font-size: 18px;
+    font-weight:bold;
+}
+.product-card-price strike{
+    color:#666666
+}
+.product-card-price p {
+    color: #EE7B7B;
+}
+.product-image {
+    position: relative;
+    
+}
+.icon-badges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    bottom:30px;
+    width:100%;
+    left:0;
+    gap:20px;
+    transition:all 0.5s ease;
+    opacity: 0;
+}
+.icon-badges .view-icon,.icon-badges .wishlist-icon {
+    width: 45px;
+    height: 45px;
+    background: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+}
+.product-image:hover .icon-badges{
+    opacity: 1;
+}
+.product-cards {
+    padding-bottom:40px;
+}
+.product-cards .col-md-3 a {
+    text-decoration: none;
+}
+.product-cards .product-image {
+    transition:all 0.5s ease;
+    position: relative;
+}
+.product-cards .product-image .hover-img {
+   opacity: 0;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+.product-cards .product-image:hover .main-img{
+    opacity: 0;
+}
+.product-cards .product-image:hover .hover-img {
+    opacity: 1;
+}
+@media (max-width: 1199px) { 
+    .product-cards h3 {
+        font-size: 16px;
+    }
+    .product-card-price strike, .product-card-price p {
+        font-size: 16px;
+    }
+}
+@media (max-width: 992px) { 
+    .product-card-price strike, .product-card-price p {
+        font-size: 15px;
+    }
+    .product-cards h3 {
+        font-size: 17px;
+    }
+}
+@media (max-width: 767px) {  
+    .product-cards .all-heading p {
+        max-width: 300px;
+        margin: auto;
+    }
+    .product-cards .container {
+        max-width: 100%;
+    }
+    .product-cards .row {
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        flex-wrap: nowrap;
+    }
+    .product-cards .col-md-3 {
+        width: 80%;
+        max-width: 100%;
+        padding-left: 0;
+    }
+    .product-cards .row::-webkit-scrollbar {display: none;}
+    .product-cards h3 {
+        font-size: 18px;
+    }
+    .product-card-price strike, .product-card-price p {
+        font-size: 16px;
+    }
+}

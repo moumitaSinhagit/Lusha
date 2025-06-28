@@ -1,0 +1,42 @@
+.return-policy-banner {
+    padding: 3rem 0;
+}
+.return-policy {
+    padding:5rem 0;
+}
+.return-policy p {
+    color:#666;
+    font-weight: 500;
+}
+.return-policy h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.return-policy ul {
+    padding-left: 0;
+    list-style: none;
+}
+.return-policy li{
+    position:relative;
+    padding-left: 20px;
+    color:#666;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.return-policy b {
+    color:#000;
+}
+.return-policy li::after {
+    content:" ";
+    background: #EE7B7B;
+    position: absolute;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 8px;
+}
+.return-policy a {
+    color: #EE7B7B;
+    text-decoration: none;
+}

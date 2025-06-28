@@ -1,0 +1,21 @@
+.related-products-slider {
+    padding-top:80px;
+    padding-bottom: 60px;
+}
+.related-products-slider .swiper-button-prev,.related-products-slider .swiper-button-next {
+    display: none;
+}
+.related-products-slider .swiper-pagination {
+    position: relative;
+}
+.related-products-slider .swiper-pagination-bullet-active {
+    background: #000;
+}
+.related-products-slider .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    margin: 0 8px!important;
+}
+.related-products-slider .all-heading {
+    padding-bottom: 40px;
+}
