@@ -12,7 +12,7 @@ const Wishlist = () => {
         <div className="wishlist-page">
           <div className="container">
             {wishlist.length === 0 ? (
-              <p>Your wishlist is empty.</p>
+              <h2 class="text-center">Your wishlist is empty.</h2>
             ) : (
               <div className="table-responsive">
                 <table className="table mb-0 cart-table">
